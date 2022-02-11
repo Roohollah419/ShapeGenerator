@@ -1,4 +1,4 @@
-import shapeNames from "../common";
+import {shapeNames} from "../common";
 
 export class Rectangle implements IShape {
    width: number;

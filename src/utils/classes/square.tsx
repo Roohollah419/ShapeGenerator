@@ -1,4 +1,4 @@
-import shapeNames from "../common";
+import {shapeNames} from "../common";
 
 export class Square implements IShape {
    length: number;

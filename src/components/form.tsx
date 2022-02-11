@@ -1,8 +1,8 @@
 import SimpleCreator from "../utils/classes/simpleCreator";
-import shapeNames from "../utils/common";
 import ShapeForm from "./shapeForm";
 import { ShapeDimensionParam } from "../utils/classes/shapeDimensionParam";
 import React, { useState } from 'react';
+import { shapeNames } from "../utils/common";
 
 function Form() {
    let result: string[] = [];

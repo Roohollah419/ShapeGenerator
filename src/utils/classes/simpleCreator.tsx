@@ -1,4 +1,4 @@
-import shapeNames from "../common";
+import {shapeNames} from "../common";
 import { Circle } from "./circle";
 import { Rectangle } from "./rectangle";
 import { Square } from "./square";
