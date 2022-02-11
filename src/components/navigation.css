@@ -1,0 +1,27 @@
+nav {
+  padding: 1em;
+  background: #f7f3e9;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2;
+}
+nav ul li {
+  display: inline;
+  padding-left: 10px;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  color: #333;
+}
+a:visited {
+  color: #333;
+}
+a:hover,
+a:focus {
+  color: #0077cc;
+}
