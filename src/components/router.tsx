@@ -4,6 +4,7 @@ import Form from "./form";
 import Home from "./home";
 import Layout from "./layout";
 import NewForm from "./newForm";
+import NotFound from "./notFound";
 
 const Router = () => (
   <Routes>
@@ -31,6 +32,7 @@ const Router = () => (
         </Layout>
       }
     />
+    <Route path="*" element={<NotFound/>} />
   </Routes>
 );
 
